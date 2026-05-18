@@ -27,6 +27,7 @@ Modern animated developer portfolio built with React, Tailwind CSS, and Framer M
 - Portfolio Website
 
 ## 📸 Preview
+https://portfolio-two-drab-32.vercel.app/
 
 
 ## ⚡ Run Locally
