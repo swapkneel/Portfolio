@@ -61,8 +61,8 @@ const projects = [
 
   tech: ["React", "Tailwind", "Framer Motion"],
 
-  github: "#",
-  live: "#",
+  github: "https://github.com/swapkneel/Portfolio",
+  live: "https://portfolio-two-drab-32.vercel.app/",
 },
 
  {
