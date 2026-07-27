@@ -1,8 +1,9 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { useState } from "react"
-import portfolioImg from "../assets/projects/portfolio.png"
+
 import taskImg from "../assets/projects/taskmanager.png"
 import deceptiScanImg from "../assets/projects/deceptiscan.png"
+import falseleadImg from "../assets/projects/falselead.png"
 
 const projects = [
 
@@ -41,28 +42,38 @@ const projects = [
   },
 
  {
-  title: "Portfolio",
+  title: "False Lead",
 
-  image: portfolioImg,
+  image: falseleadImg,
 
   description:
-    "Modern animated portfolio website built using React, Tailwind, and Framer Motion.",
+    "Real-time multiplayer social deduction game built with React, Node.js, Socket.IO, and MySQL.",
      
     details:
-    "A modern developer portfolio designed with smooth animations, interactive UI elements, responsive layouts, and cinematic transitions to showcase projects and achievements.",
+    "Inspired by the countless social deduction games I played with friends in college, False Lead is my own take on the genre. Players join private lobbies, vote on categories, discuss clues, identify the imposter, and compete across multiple rounds with live scoring. To make the gameplay more dynamic, I introduced unique round types, AI-generated hints, and category voting. The project was deployed using Vercel and Railway, and solving a production-only race condition between React routing and Socket.IO became one of the biggest engineering lessons of the project.",
 
   features: [
-    "Smooth scrolling animations",
-    "Interactive skill cards",
-    "Project showcase modals",
-    "Responsive modern UI",
-    "Custom loading screen",
+    "Real-time multiplayer gameplay",
+    "Private lobby & room code system",
+    "Multiple unique round types",
+    "Category voting before each round",
+    "AI-generated gameplay hints",
+    "Live voting, scoring & leaderboard",
+    "Authentication with JWT",
+    "Responsive cross-device experience",
   ],
 
-  tech: ["React", "Tailwind", "Framer Motion"],
+  tech: ["React",
+    "Node.js",
+    "Express",
+    "Socket.IO",
+    "MySQL",
+    "JWT",
+    "Vercel",
+    "Railway",],
 
-  github: "https://github.com/swapkneel/Portfolio",
-  live: "https://portfolio-two-drab-32.vercel.app/",
+  github: "https://github.com/swapkneel/False-Lead",
+  live: "https://false-lead.vercel.app/",
 },
 
  {
